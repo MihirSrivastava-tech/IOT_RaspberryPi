@@ -2,7 +2,7 @@
 
 ## Examples for using Raspberry Pi in IOT with various Input and Output devices 
 
-### What is Raspberry Pi
+### What is Raspberry Pi ?
 It is a small single board computer that can be used for learning, programming and for developing projects based on IOT or embedded systems.
 
 ### Basics of GPIO Programming on Raspberry Pi
