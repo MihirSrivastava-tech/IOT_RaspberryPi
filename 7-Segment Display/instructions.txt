@@ -1,0 +1,13 @@
+In this we are using IR sensor to detect and count the numbers of objects and will display it on common anode 7-segment display
+
+Step 1:- Connect the LED's negative terminal with the ground (GND) pin.
+
+Step 2:- Give power to IR Sensor from Raspberry Pi Board's Vcc pin and connect the ground from GND pin
+
+Step 3:- Connect the input pin of IR Sensor to pin number 5 (Declare it as input pin in the program)
+
+Step 4:- Connect the 7-segment display pins according to the below data
+            #           g   f   d   e   c   b   a
+            ssd_pins = [31, 33, 35, 37, 40, 38, 36]
+
+Step 5:- Run the program
