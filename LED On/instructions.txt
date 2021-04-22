@@ -1,0 +1,7 @@
+In this we are switching On the LED ligth using GPIO pins
+
+Step 1:- Connect the LED's positive terminal with GPIO pin number 40 (Use a resistor to limit the current and to save your board from being damaged).
+
+Step 2:- Connect the LED's negative terminal with the ground (GND) pin.
+
+Step 3:- Run the program.

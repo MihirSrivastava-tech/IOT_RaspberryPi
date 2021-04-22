@@ -1,0 +1,11 @@
+In this we are going to count the number of objects using IR Sensor
+
+Step 1:- Connect the LED's positive terminal with GPIO pin number 40 (Use a resistor to limit the current and to save your board from being damaged).
+
+Step 2:- Connect the LED's negative terminal with the ground (GND) pin.
+
+Step 3:- Give power to IR Sensor from Raspberry Pi Board's Vcc pin and connect the ground from GND pin
+
+Step 4:- Connect the input pin of IR Sensor to pin number 5 (Declare it as input pin in the program)
+
+Step 5:- Run the program
