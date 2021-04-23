@@ -13,7 +13,9 @@ count = 0
 while(True):
     #Taking input from pin number 5, if input is being made the value return in GPIO.input() will be 1 else 0
     if GPIO.input(5):
+      GPIO.output(40, GPIO.HIGH)
       count+=1
       print(count)
       while(GPIO.input(5)):
         continue
+      GPIO.output(40, GPIO.LOW)

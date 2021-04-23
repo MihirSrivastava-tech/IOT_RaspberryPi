@@ -12,7 +12,7 @@ It is a small single board computer that can be used for learning, programming a
  
 - To make the pin as input pin, use `GPIO.setup(PIN_NUMBER, GPIO.IN)`
  
-- To make the pin as output pin, use `GPIO.setup(PIN_NUMBER,GPIO.OUT)`
+- To make the pin as output pin, use `GPIO.setup(PIN_NUMBER, GPIO.OUT)`
  
 - To take input from the pin, use `GPIO.input(PIN_NUMBER)`
   > When the input is given, the value returned by the function will be 1 else it will be 0
